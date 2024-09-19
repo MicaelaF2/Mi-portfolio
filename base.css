@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.bemvindo{
+   
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+        color: #030200;
+        font-family: "Oldenburg";
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #EDEEC9;
+}
+
+header {
+    background-color: #BFD8BD;
+    padding: 0 15px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+
+header > h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+}
+main{
+    padding: 50px;
+}
+nav {
+     padding: 10px;
+     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+@media (max-width: 1200px) {
+    .menu .logo {
+        margin-left: -100px;
+    }
+    .menu nav a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+ 
+@media (max-width: 992px) {
+    .banner {
+        height: 400px;
+        margin-top: 50px;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu .logo {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .menu nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu nav a {
+        width: auto;
+        text-align: left;
+        padding: 10px 20px;
+        border-radius: 0;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .banner {
+        height: 300px;
+    }
+    .menu {
+        padding: 15px;
+    }
+    .menu .logo img {
+        transform: scale(0.25);
+    }
+    .menu nav a {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .social-icons i, .docs {
+        font-size: 8px;
+    }
+}
+ 
+@media (max-width: 576px) {
+    .banner {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .menu {
+        padding: 10px;
+    }
+    .menu nav a {
+        font-size: 10px;
+        padding: 8px;
+    }
+    .social-icons i, .docs {
+        font-size: 6px;
+    }
+}
+
+
+/* INICIO RODAPE */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: #BFD8BD;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content:  center;
+}
+
+.footer-copyright {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}

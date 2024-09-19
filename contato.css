@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.bemvindo{
+   
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+        color: #030200;
+        font-family: "Oldenburg";
+        text-align: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #EDEEC9;
+}
+
+header {
+    background-color: #BFD8BD;
+    padding: 0 15px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+
+header > h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+}
+main{
+    padding: 50px;
+}
+nav {
+     padding: 10px;
+     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* INICIO CONTATO */
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.form-contato{
+    padding: 80px 0 80px 0;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* FIM CONTATO */
+
+
+/* INICIO FORMULARIO */
+
+form label{
+    /* font-family: Raleway; */
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding: 0 0 5px 0;
+   
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.enviar{
+    font-family: Raleway;
+    font-style:normal ;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 40%;
+    padding: 15px 0 15px 0;
+    background-color: #98C9A3;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+/* INICIO RODAPE */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: #BFD8BD;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    justify-content:  center;
+}
+
+.footer-copyright {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}

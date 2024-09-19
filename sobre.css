@@ -1,0 +1,34 @@
+
+.img-sobre {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #BFD8BD
+}
+
+/* .texto2 {
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+main {
+    display: flex;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo2 h2 {
+    font-weight: 400;
+    text-align: justify;
+}

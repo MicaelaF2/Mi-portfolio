@@ -1,0 +1,9 @@
+
+.alinhamentoImg{
+    display: flex;
+ 
+}
+.imageFigure {
+    width: 490px;
+    padding:20px;
+}

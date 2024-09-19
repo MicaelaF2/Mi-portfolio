@@ -1,0 +1,25 @@
+.titulo2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.linha-imagens, .linha-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imagem-container, .video-container {
+    flex: 1 1 200px; 
+    max-width: 300px; 
+}
+
+.imagem, .video {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
